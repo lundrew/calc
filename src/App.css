@@ -98,7 +98,7 @@ select {
     justify-content: center;
     margin: 0 auto;
     margin-top: 200px;
-    width: 500px;
+    width: auto;
     height: 200px;
     background-color: rgb(6, 41, 67);
   }
@@ -118,10 +118,10 @@ select {
   body {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
     margin-top: 200px;
-    width: 500px;
-    height: 200px;
+    width: auto;
     background-color: rgb(6, 41, 67);
   }
   form {
@@ -129,7 +129,7 @@ select {
     border-radius: 50px;
     height: 320px;
     padding: 20px;
-    width: 400px;
+    width: 275px;
   }
 } 
 
