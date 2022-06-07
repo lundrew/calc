@@ -86,3 +86,50 @@ select {
   text-align: center;
   width: 100%;
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(6, 41, 67);
+  }
+  form {
+    background-color: #15172b;
+    border-radius: 50px;
+    height: 320px;
+    padding: 20px;
+    width: 350px;
+  }
+  
+}
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(6, 41, 67);
+  }
+  form {
+    background-color: #15172b;
+    border-radius: 50px;
+    height: 320px;
+    padding: 20px;
+    width: 400px;
+  }
+} 
+
